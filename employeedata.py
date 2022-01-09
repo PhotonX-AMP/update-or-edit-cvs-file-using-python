@@ -46,4 +46,4 @@ if (Change_file == "y"):
         New_data_list = csv.writer(file)
         for i in range(len(data_list)):
             New_data_list.writerow(data_list[i])
-            print("Operation sucessfull!")
+print("Operation sucessfull!")
